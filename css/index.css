@@ -141,6 +141,14 @@ body {
   font-family: "Lato", sans-serif;
   color: white;
 }
+header h2{
+  text-align: center;
+  padding-top: 10px;
+}
+header p{
+  text-align: center;
+}
+
 h1,
 h2,
 h3 {
@@ -151,6 +159,11 @@ h3 {
     margin-left:32%;
 }
 
+@media (max-width: 500px) {
+  .logo{
+    margin-left: 2%;
+  }
+}
 
 h2 {
   font-size: 3.2rem;
@@ -284,6 +297,12 @@ footer {
   height: 100%;
   border: 2px solid fuchsia;
 }
+@media (max-width: 500px) {
+  .home .feature-images img {
+    display: none;
+  }
+}
+
 .home .features-main {
   padding: 15px;
 }
@@ -312,7 +331,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .team .team-text {
-    margin-top: 90%;
+     margin-left: 10%;
   }
 }
 .home .team .team-text h3 {
